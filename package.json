@@ -7,7 +7,13 @@
     "wdio": "wdio run ./wdio.conf.js",
     "test": "./node_modules/.bin/wdio ./wdio.conf.js",
     "login": "./node_modules/.bin/wdio ./wdio.conf.js --spec ./test/specs/login.spec.js",
-    "clients": "./node_modules/.bin/wdio ./wdio.conf.js --spec ./test/specs/clients.spec.js"
+    "clients": "./node_modules/.bin/wdio ./wdio.conf.js --spec ./test/specs/clients.spec.js",
+    "coupons": "./node_modules/.bin/wdio ./wdio.conf.js --spec ./test/specs/coupon.spec.js",
+    "readCoupon": "./node_modules/.bin/wdio ./wdio.conf.js --spec ./test/specs/coupon.spec.js",
+    "deleteCoupon": "./node_modules/.bin/wdio ./wdio.conf.js --spec ./test/specs/coupon.spec.js"
+
+
+
   },
 
   "keywords": [],
